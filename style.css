@@ -1,0 +1,289 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+header {
+  background: #4b698e;
+  padding: 40px 20px;
+  width: 100%;
+  color: white;
+}
+
+header .header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 18px;
+  color: #d3a86d;
+  letter-spacing: 1px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 40px 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.contact {
+  margin: 20px 0;
+}
+
+.contact p {
+  font-size: 18px;
+  color: #444;
+}
+
+.contact i {
+  color: #d3a86d;
+  margin-right: 10px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #444;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.social a {
+  margin: 0 15px;
+  color: white;
+  background: #4b698e;
+  padding: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+.social a:hover {
+  background: #d3a86d;
+}
+
+footer {
+  background: #4b698e;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+
+.next-btn {
+  background-color: #d3a86d;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 40px auto 20px auto; /* Push down and center */
+  
+}
+
+.next-btn:hover {
+  background-color: #0b0d2f;
+}
+.about-me {
+  background: white;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.about-me h2 {
+  font-size: 24px;
+  color: #0b0d2f;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #d3a86d;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 15px;
+}
+
+.btn:hover {
+  background-color: #0b0d2f;
+}
+
+.cv-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cv-btn {
+  background-color: #d3a86d;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.cv-btn:hover {
+  background-color: #0b0d2f;
+}
+.skills {
+  background: white;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  text-align: left;
+}
+
+.skills h2 {
+  font-size: 24px;
+  color: #0b0d2f;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.skills strong {
+  color: #d3a86d;
+}
+.experience {
+  background: white;
+  width: 90%;
+  max-width: 900px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  text-align: left;
+}
+
+.experience h2 {
+  color: #0b0d2f;
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.experience h3 {
+  color: #d3a86d;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.experience ul {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.experience li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.dropdown-section {
+  background: white;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  text-align: left
+}
+
+.dropdown-section details {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  text-align: left
+}
+
+.dropdown-section summary {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0b0d2f;
+  outline: none;
+}
+
+.dropdown-section ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.dropdown-section li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  text-align: left;
+}
